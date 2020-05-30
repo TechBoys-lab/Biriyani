@@ -1,0 +1,53 @@
+Welstr="Welcome to the Rupees to BIRIYANI Calculator"
+print (Welstr.center(80 , '-'))
+Creditsstr=" - Developed By Srikant"
+print (Creditsstr.rjust (80))
+print (" ")
+print (" ")
+print ("[1] Rupees to Biriyani \n[2] Biriyani to Rupees  \n[3] Normal Calculator  \n[4] Exit ")
+print (" ")
+print (" ")
+print (" ")
+print ("Enter Your Choice :  ", end=" ")
+inp=int (input() )
+print (" ")
+print(" You entered : ", inp)
+print (" ")
+if inp==1:
+    print ("How many Rupees is the sponser offering? : ", end=" ")
+    n=int (input() )
+    b=80
+    if n < b :
+        print ("Sorry. You Dont Have Enough Cash :( ")
+    else :    
+        res=n/b
+        res=int (res)
+        print ("That's equal to  ", end=" ")
+        print (res,end=" ")
+        print (" Biriyanies")
+        
+elif inp==2 :
+     print ("How Many Biriyanies You Like To Have? : ", end=" ")
+     n=int (input() )
+     b=80 
+     res=n*b
+     res=int (res)
+     print ("You Got to pay ", end=" ")
+     print (res,end=" ")
+     print (" Rupees ")
+elif inp==3 :
+	print ("You Have Choosen Normal Calculator ")
+	print (" ")
+	print (" ")
+	print ("Work in Progress. Come Back Later ")
+elif inp==4  :
+    exit()
+else :
+	print ("Invalid Operation")
+	
+	
+    
+import time
+time.sleep (2)
+import time 
+time.sleep (60)
